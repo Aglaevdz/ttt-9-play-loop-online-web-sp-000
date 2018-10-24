@@ -36,8 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+require "pry"
 def play(board)
   turn(board)
+  binding.pry
   until turn(board) == 8
     turn(board) += 1
   break
