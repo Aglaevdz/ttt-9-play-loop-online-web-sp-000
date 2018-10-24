@@ -37,6 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  while  turn(board) += 1
+  turn(board) = 0
+  until turn(board) == 8
+    turn(board) += 1
   break
 end
