@@ -41,6 +41,6 @@ def play(board)
   counter = 0
     until counter == turn
     turn(board)
-    counter = counter + 1
+    counter += 1
   end
 end
