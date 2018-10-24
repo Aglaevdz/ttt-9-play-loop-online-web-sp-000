@@ -41,6 +41,6 @@ def play(board)
   turn(board)
   binding.pry
   until turn(board) == 8
-    turn(board) += 1
+    turn(board)
   break
 end
